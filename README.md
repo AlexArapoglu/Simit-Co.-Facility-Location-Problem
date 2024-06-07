@@ -1,7 +1,8 @@
-# IE343TermProject 
-### Alexander Arapoğlu S028545
-### Mustafa Sami Türkyılmaz S028882
+# Simit Co. Facility Location Problem 
+### Alexander Arapoğlu 
 #
+SimitCo, a pastry company, aims to open a certain amount of bakery facilities around Istanbul. Company engineer has found several candidate locations for the facilities and pointed out customers, however, they hesitated to give this long-term decision by themselves. At this point, they have reached you to create a good-performing heuristic. After analyzing the situation, you’ve concluded that this is a Facility Location Problem. SimitCo has signed long-term contracts with each customer, so customer data is considered as deterministic.
+
 This project aims to solve the Facility Location Problem for Simit Co. using a combination of a k-Center Greedy Algorithm and a 2-opt Local Search improvement heuristic. Code in `kod.py` file calculates execution times and plots a graph of facility locations for both k-center Greedy Algorithm and Improvement Heuristics which are saved in the `Plots` folder of this Repository. Also, it calculates the improvement percentage achieved by improvement heuristics for each problem size.
 
 ## Changes and Additions
